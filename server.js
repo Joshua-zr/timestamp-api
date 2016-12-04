@@ -5,4 +5,4 @@ app.get('/', (req, res) => {
     res.send('timestamp-api');
 })
 
-app.listen(8080);
+app.listen(process.env.PORT || 5000);
